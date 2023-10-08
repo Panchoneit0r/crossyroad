@@ -117,6 +117,7 @@ public class Player : MonoBehaviour
         panelmuerte.SetActive(true);
         Botones.SetActive(false);
         self.enabled = false;
+        puntaje.compararPuntaje();
     }
     
     

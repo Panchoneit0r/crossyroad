@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     public void CambiarEscena(string nombreDeEscena)
     {
         SceneManager.LoadScene(nombreDeEscena);
+        Time.timeScale = 1; // Detener el tiempo
     }
     public void activatepause()
     {
